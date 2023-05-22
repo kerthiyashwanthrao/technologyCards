@@ -1,0 +1,33 @@
+.card-1 {
+  border-top: 5px solid #ff4f64;
+}
+
+.card-2 {
+  border-top: 5px solid #00a8e7;
+}
+
+.card-3 {
+  border-top: 5px solid #44c4a1;
+}
+
+.card-4 {
+  border-top: 5px solid #fcc200;
+}
+.listcontainer {
+  display: flex;
+  flex-direction: column;
+}
+.detailscontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.imagecontainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.image {
+  width: 100px;
+  height: 100px;
+}
+/* Write CSS code here. */

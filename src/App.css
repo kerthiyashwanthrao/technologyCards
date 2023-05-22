@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f4faff;
+}
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+}
+.para {
+  color: #64748b;
+  font-size: 15px;
+}
+.unorderedContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* Write CSS code here */
